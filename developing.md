@@ -21,8 +21,7 @@ system. If we do it right it might even allow any type of webhook.
 ### Generator
 
 ```bash
-
-    php artisan laralamma:source:create
+php artisan laralamma:source:create
 ```
 
 Then it will ask you some questions.
