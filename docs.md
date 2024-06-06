@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # LaraLamma
 
 LaraLamma is based on Laravel and is a great foundation for any LLM centric application

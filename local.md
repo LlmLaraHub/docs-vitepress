@@ -1,3 +1,6 @@
+---
+outline: deep
+---
 # Local Setup
 
 
@@ -26,7 +29,7 @@ I could not get the extension to install but maybe now it would work.
 
 I know DBEngin is great too https://dbngin.com/ but the extension did not install at the time.
 
-## Installation Steps
+### Installation Steps
 
 The database will not setup itself like MySQL so you have to do two steps here.
 Using TablePlus I open the database and then make the schema ``larachain``
@@ -62,7 +65,6 @@ Then seed the user:
 php artisan migrate:fresh --seed
 ```
 
-   
 
 ::: tip
    You can see on the bottom of the .env the username and password for seeding admin user.
@@ -81,7 +83,6 @@ php artisan reverb:start --debug
 ```bash
 npm run dev
 ```
-
 
 
 Ollama, OpenAi, Claude 🤔
@@ -135,7 +136,6 @@ upload_max_filesize=500M
 memory_limit=-1
 post_max_size = 100M
 ```
-
 
 
 Pulling down the latest code!

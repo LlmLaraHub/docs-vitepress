@@ -1,3 +1,6 @@
+---
+outline: deep
+---
 Your First Collection
 ===================================
 

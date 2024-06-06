@@ -21,7 +21,11 @@ export default defineConfig({
           { text: 'Local Setup', link: '/local' },
           { text: 'First Collection', link: '/first-collection' },
           { text: 'Digging In', link: '/digging-in' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Use Cases', link: '/use-cases' },
+          { text: 'Server', link: '/server' },
+          { text: 'Developing', link: '/developing' },
+          { text: 'Links', link: '/links' },
+          { text: 'APIs', link: '/api' }
         ]
       }
     ],
