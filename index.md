@@ -21,7 +21,7 @@ features:
   - title: 🔒 Privacy
     details: Bring your own Larage Langague Model or use ours.
   - title: 🏠 More than a Retrieval Augmentation System 
-    details: Send your data over to vectorize and centralize for endless uses
+    details: Send your data over to vectorize and centralize for endless uses.
   - title: 💪 LLM + Prompting
     details: Users can write prompts to use the power of Large Language Models
 ---
