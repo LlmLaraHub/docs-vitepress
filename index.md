@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Ovierview
-      link: /overview
+      link: /docs
     - theme: brand
       text: Local Setup
       link: /local
