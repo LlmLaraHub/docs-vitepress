@@ -31,7 +31,15 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { 
+        icon: 'github', link: 'https://github.com/LlmLaraHub/docs-vitepress'
+      },
+      {
+        icon: 'youtube', link: 'https://www.youtube.com/watch?v=KM7AyRHx0jQ&list=PLL8JVuiFkO9I1pGpOfrl-A8-09xut-fDq'
+      },
+      {
+        icon: 'linkedin', link: 'https://www.linkedin.com/in/alfrednutile/'
+      }
     ]
   }
 })
