@@ -23,6 +23,6 @@ features:
   - title: 🏠 More than a Retrieval Augmentation System 
     details: Send your data over to vectorize and centralize for endless uses.
   - title: 💪 LLM + Prompting
-    details: Users can write prompts to use the power of Large Language Models
+    details: Users can write prompts to use the power of Large Language Models.
 ---
 
