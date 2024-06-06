@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as t,a1 as l}from"./chunks/framework.DTR-fORK.js";const _=JSON.parse('{"title":"Links","description":"","frontmatter":{},"headers":[],"relativePath":"links.md","filePath":"links.md"}'),r={name:"links.md"},s=l("",2),n=[s];function i(o,m,d,c,u,f){return t(),a("div",null,n)}const p=e(r,[["render",i]]);export{_ as __pageData,p as default};
