@@ -4,7 +4,7 @@ outline: deep
 # Developing
 How to modify the system and add your own Sources, Outputs, and Transformers.
 
-![](images/Overview.jpg)
+![](images/overview.jpg)
 
 Let's start with the Sources. 
 
