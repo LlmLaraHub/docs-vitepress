@@ -8,8 +8,11 @@ hero:
   tagline: CRS (Content R.A.G System)
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Ovierview
+      link: /overview
+    - theme: brand
+      text: First Collection
+      link: /first-collection
     - theme: alt
       text: API Examples
       link: /api-examples

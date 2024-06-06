@@ -19,6 +19,8 @@ export default defineConfig({
         items: [
           { text: 'Overview', link: '/docs' },
           { text: 'Local Setup', link: '/local' },
+          { text: 'First Collection', link: '/first-collection' },
+          { text: 'Digging In', link: '/digging-in' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
