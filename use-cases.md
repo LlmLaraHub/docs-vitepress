@@ -34,7 +34,9 @@ You ca see a video here of it working https://www.youtube.com/watch?v=SUwI70h5kV
 Email Checking
 -------------
 Get emails (Support, Marketing) and then chat with those or better yet
-get a daily summary of the emails sent to you! https://www.youtube.com/watch?v=IN3-7tUM6o8
+get a daily summary of the emails sent to you! [here](https://www.youtube.com/watch?v=IN3-7tUM6o8)
+
+[![](images/email_video.png)](https://www.youtube.com/watch?v=IN3-7tUM6o8)
 
 You can see this video here on how to setup a Email Box Source, and setup an output of a Daily Report.
 
