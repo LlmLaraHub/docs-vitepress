@@ -5,16 +5,16 @@ layout: home
 hero:
   name: "LaraLamma"
   text: "The Laravel R.A.G System"
-  tagline: CRS (Content Retreival System)
+  tagline: Open-Source CRS (Content Retreival System)
   actions:
     - theme: brand
-      text: Ovierview
+      text: 🌤️  Overview
       link: /docs
-    - theme: brand
-      text: Local Setup
-      link: /local
     - theme: alt
-      text: The Code
+      text: 🚀  Use Cases
+      link: /use-cases
+    - theme: brand
+      text: 📖  The Code
       link: https://github.com/LlmLaraHub/laralamma
 
 features:

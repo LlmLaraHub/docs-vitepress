@@ -18,6 +18,14 @@ Watch more of it here https://www.youtube.com/watch?v=5WYUnC7OFaE
 
 Chat Widget from https://www.patreon.com/posts/simple-and-easy-104606949
 
+Chat Support Widget
+-------------
+
+Same as above but the focus in this video shows how the Chat widget can help with customer support!
+
+
+
+
 Rag System
 -------------
 
