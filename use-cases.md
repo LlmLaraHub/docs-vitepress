@@ -1,6 +1,11 @@
 Use Cases
 =====
 
+Below are numerous uses cases that I continue to make videos about. You can join our YouTube channel [https://www.youtube.com/playlist?list=PLL8JVuiFkO9I1pGpOfrl-A8-09xut-fDq](https://www.youtube.com/playlist?list=PLL8JVuiFkO9I1pGpOfrl-A8-09xut-fDq)
+
+The bottom line is a CRS (Content Retreival System) becomes a hub of automation and a way to make the most of your companies data.
+
+
 External Chat Widget
 ----------------
 
