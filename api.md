@@ -74,6 +74,19 @@ You could send the history as well
 
 ### RESPONSE
 
+Here we mimic the OpenAi API
+
+```json
+{
+    "choices" : [
+        {
+            "message": {
+                "content": "Hello I can email support for you here are some tips to hold you over"
+            }
+        },
+    ],
+}
+```
 
 
 ## Sources
