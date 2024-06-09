@@ -6,11 +6,15 @@ How to modify the system and add your own Sources, Outputs, and Transformers.
 
 ![](images/overview.jpg)
 
-Let's start with the Sources. 
+## Theme Layer
 
->NOTE: All the others can be created but only Sources has a generator at the moment.
+Tailwind is at the cord but to simplify code I am using https://daisyui.com/ to drive the ui (80% transitioned to it)
+
 
 ## Sources 
+
+
+>NOTE: All the others can be created but only Sources has a generator at the moment.
 
 There are generators that come with the system. We will make a source that allows GitHub webhooks to come into the
 system. If we do it right it might even allow any type of webhook.
