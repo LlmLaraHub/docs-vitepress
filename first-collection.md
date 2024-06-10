@@ -69,6 +69,25 @@ You can then see Sources, Prompt (so you can troubleshoot or see how it worked) 
 ![Prompt](images/prompt.png)
 
 
+## Adding a Source
+
+Let's try a source of "WebSearch"
+
+
+![](/images/source_step.png)
+
+Step 1 is to give it a title
+
+Step 2 is to give it something to search the web for
+
+You have it run daily etc to get data for your collection.
+
+On the next page you can click "Run" to see it work! 
+
+In a few minutes you will get articles from the web about the topic you are searching for.
+
+
+
 
 Troubleshooting
 ----------------

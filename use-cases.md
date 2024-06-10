@@ -82,7 +82,139 @@ On Board New Staff
 Upload your onboarding docs and then add the system to Slack or Teams to help
 someone chat with the info they need!
 
-Coming Soon
+Statamic to LaraLlama on Content Update
+-----------
+This will work with any CMS really.
+
+In Statamic we just need to add a listener `app/Listeners/SendWebhookListener.php`
+
+and then in there do a simple bit of code:
+
+```php 
+
+<?php
+
+namespace App\Listeners;
+
+use Facades\App\Domains\WebhookClient\Client;
+use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Queue\InteractsWithQueue;
+use Illuminate\Support\Facades\Log;
+use Statamic\Events\CollectionSaved;
+use Statamic\Events\EntrySaved;
+
+class SendWebhookListener
+{
+    /**
+     * Create the event listener.
+     */
+    public function __construct()
+    {
+        //
+    }
+
+    /**
+     * Handle the event.
+     */
+    public function handle(EntrySaved $event): void
+    {
+        Log::info("Sending webhook");
+        Client::handle($event->entry->toArray());
+        Log::info("Done Sending webhook");
+    }
+}
+```
+
+Ok now lets add a Client we can use in numerous places. `app/Domains/WebhookClient/Client.php`
+
+```php
+<?php
+
+namespace App\Domains\WebhookClient;
+
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
+
+class Client
+{
+
+    public  function handle(array $data) : bool|\Exception {
+        $token = env('WEBHOOK_TOKEN');
+        if (is_null($token)) {
+            throw new \Exception('Invalid token');
+        }
+
+        $url = env("WEBHOOK_URL");
+
+        if (empty($url)) {
+            throw new \Exception('No webhook url');
+        }
+
+        $response  = Http::withToken($token)
+            ->withHeaders([
+                'Content-Type' => 'application/json',
+                'Accept' => 'application/json',
+            ])
+            ->post($url, [
+            'id' => data_get($data, 'id'),
+            'content' => $data,
+        ]);
+
+        if ($response->failed()) {
+            Log::error("Failed to post to webhook",
+                [
+                    'status' => $response->status()
+                ]
+            );
+            throw new \Exception($response->json());
+        }
+
+        Log::info("Posted to Webhook", $response->json());
+
+        return true;
+    }
+}
+
+```
+
+Ok now we can get the `WEBHOOK_TOKEN` and `WEBHOOK_URL` when we add the Source to LaraLlama.
+
+Let's do that now.
+
+Add a new Collection [here](/first-collection.html)
+
+Then for the Source we will add WebSearch source [see here](first-collection.html#adding-a-source)
+
+In our case we will add the "Webhook Source"
+
+![](/images/webhook_source.png)
+
+Then it will look like this
+
+![](images/webhook_cms.png)
+
+Notice too the prompt it just explains what you want from the JSON coming in. Maybe you do not know what the JSON is that is ok. We can talk more about other ways to get the data. 
+
+Ok once you save it it will give you the `WEBHOOK_URL` and `WEBHOOK_TOKEN`
+
+![](images/weburl_web_token.png)
+
+  * 1 is the Token
+  * 2 is the URL
+
+  Then you are set when you add a Page to the Statmic site or update it it will send a webhook over to your LaraLlama install.
+
+  Then in LaraLlama you can see the Document and the vectorized summarized data.
+
+  ![](images/statamic_content.png)
+
+
+The big win here is you can send content from numerous sites here to do end of the month summary of articles as well as search and a sense of "voice" to marketing emials etc.
+
+
+
+
+Coming Soon 
 -------------
 
   * Workflows so you can notify "new staff" daily with next steps in the onboarding.
