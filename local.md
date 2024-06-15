@@ -37,7 +37,7 @@ Using TablePlus I open the database and then make the schema ``larachain``
 Then I open that database and run this:
 
 ```sql
-   CREATE EXTENSION vector;
+CREATE EXTENSION vector;
 ```
 
 To clone the repository, run the following command in your terminal:
