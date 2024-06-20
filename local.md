@@ -109,7 +109,7 @@ ollama pull mxbai-embed-large
 ```
 
 ::: danger
-THIS IS REQURED you need a model for embedding
+Ok not really Danger but this is required you need a model for embedding
 :::
 
 For embedding data.
