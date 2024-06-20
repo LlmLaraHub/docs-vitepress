@@ -106,7 +106,9 @@ To get started with the defaults LLM and:
 
 ```bash
 ollama pull mxbai-embed-large
-```   
+```
+
+> THIS IS REQURED you need a model for embedding
 
 For embedding data.
 
