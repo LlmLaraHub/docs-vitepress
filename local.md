@@ -108,7 +108,9 @@ To get started with the defaults LLM and:
 ollama pull mxbai-embed-large
 ```
 
-> THIS IS REQURED you need a model for embedding
+::: danger
+THIS IS REQURED you need a model for embedding
+:::
 
 For embedding data.
 
