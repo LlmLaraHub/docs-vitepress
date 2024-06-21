@@ -152,3 +152,15 @@ php artisan optimize:clear
 php artisan migrate
 ```
 
+
+
+## Settings
+
+You now have to setup your API keys on the settings page.
+Only after you do this will options show up on the "Add Collections" area
+
+#### Settings Page
+![](images/SettingsPage.png)
+
+#### Menu in Collection Add/Edit
+![](images/settings.png)

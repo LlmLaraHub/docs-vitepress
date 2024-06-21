@@ -164,6 +164,8 @@ Before we do that let's fix the our Card and Edit form.
 
 `resources/js/Pages/Sources/Index.vue`
 
+
+
 ### Now for the Card
 
 Just add your new card to the imports:

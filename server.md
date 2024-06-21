@@ -36,3 +36,8 @@ Email Checking
 Using https://github.com/Webklex/laravel-imap
 
 And there are some notes there on what the server needs
+
+
+## Settings 
+
+Make sure to follow [settings](/local.html#settings)

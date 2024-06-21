@@ -41,6 +41,7 @@ This is how you get data into the system. There are many ways to do this.
   * Upload files (PDF, PPT, Text etc)
   * Send in data as emails (the system can query an email box or you can forward to it)
   * Send in data via a webhooks (Create for GitHub data)
+  * WebPage Source - here you can enter a list of URLs for the system to get the data from
 
 
 ### Trasnformers 

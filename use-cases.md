@@ -44,6 +44,15 @@ This means you can upload PDF files, PowerPoints, pull in web data and chat with
 You ca see a video here of it working https://www.youtube.com/watch?v=SUwI70h5kVY
 
 
+Standards Checking and Comparison
+------------
+Respond to documentation and marketing material updates by sending those updates to LaraLlama and getting feedback 
+about which standard rules that it needs to do better at!
+
+This is great to standardize Code, Docs, Marketing Reports and more.
+
+
+
 Email Checking
 -------------
 Get emails (Support, Marketing) and then chat with those or better yet

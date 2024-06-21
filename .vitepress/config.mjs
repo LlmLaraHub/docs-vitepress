@@ -18,6 +18,7 @@ export default defineConfig({
         text: '🚀 The Docs',
         items: [
           { text: 'Overview', link: '/docs' },
+          { text: 'Features', link: '/features' },
           { text: 'Local Setup', link: '/local' },
           { text: 'First Collection', link: '/first-collection' },
           { text: 'Digging In', link: '/digging-in' },
@@ -25,7 +26,8 @@ export default defineConfig({
           { text: 'Server', link: '/server' },
           { text: 'Developing', link: '/developing' },
           { text: 'Links', link: '/links' },
-          { text: 'APIs', link: '/api' }
+          { text: 'APIs', link: '/api' },
+          { text: 'Code APIs', link: '/code-api' }
         ]
       }
     ],
