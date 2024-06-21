@@ -48,13 +48,18 @@ You want to do two things when done:
 
 Notify the ui as you are done so the user knows things are happening!
 
-Then return a FunctionResponse so the next function or final LLM call knows what to do.
+Then return a **FunctionResponse** so the next function or final LLM call knows what to do.
 
+### documentChunks
 Sometimes you might not have documentChunks and that is fine. And require_follow up is a nice way to chain other functions to your function. More on that later. The code will show what it will  with that btw.
 
+### prompt
 The prompt history is nice, the user can see the full prompt so they understand the prompt and can use it again or in other systems!
 
+### content
 Then content is the results so the next function/class/tool has that info.
+
+## Register Function
 
 You can then register your tool [https://github.com/LlmLaraHub/larallama/blob/main/Modules/LlmDriver/app/LlmDriverClient.php#L58](https://github.com/LlmLaraHub/larallama/blob/main/Modules/LlmDriver/app/LlmDriverClient.php#L58)
 
