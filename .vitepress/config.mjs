@@ -25,6 +25,7 @@ export default defineConfig({
           { text: 'Use Cases', link: '/use-cases' },
           { text: 'Server', link: '/server' },
           { text: 'Developing', link: '/developing' },
+          { text: 'Adding Custom Tools - Functions', link: '/tools' },
           { text: 'Links', link: '/links' },
           { text: 'APIs', link: '/api' },
           { text: 'Code APIs', link: '/code-api' }
