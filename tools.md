@@ -9,7 +9,7 @@ This will show how you can add and register Functions/Tools with the system.
 
 Here is one of the 3-4 that come with LaraLlama so far [https://github.com/LlmLaraHub/larallama/blob/main/Modules/LlmDriver/app/Functions/StandardsChecker.php](https://github.com/LlmLaraHub/larallama/blob/main/Modules/LlmDriver/app/Functions/StandardsChecker.php)
 
-## What comes in to the function
+## What gets passed into the function
 
 ```php
     /**
