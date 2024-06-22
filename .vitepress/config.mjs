@@ -20,6 +20,7 @@ export default defineConfig({
           { text: 'Overview', link: '/docs' },
           { text: 'Features', link: '/features' },
           { text: 'Local Setup', link: '/local' },
+          { text: 'Docker Setup', link: '/docker' },
           { text: 'First Collection', link: '/first-collection' },
           { text: 'Digging In', link: '/digging-in' },
           { text: 'Use Cases', link: '/use-cases' },
