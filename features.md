@@ -27,6 +27,8 @@ You and your team can then chat with your documents.
 
 ## Dynamic Updates to Collection
 
+Another big feature is that when you create a collection
+
 ## Filters
 
 You can filter or Group documents and then use that filter in your chats
