@@ -62,3 +62,11 @@ LaraLlama is built on top of the most well known framework out there https://lar
 You can filter or Group documents and then use that filter in your chats
 
 
+## Personals and Audience
+
+You can help the LLM format the output in your voice or the Marketing team voice etc. And you can have the output written and focus on the topics the audience you choose can relate to.
+For example "Developer Audience" vs "Business Audience"
+
+See more [here](https://larallama.io/posts/new-feature-audience)
+
+
