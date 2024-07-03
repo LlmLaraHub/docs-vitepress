@@ -168,3 +168,37 @@ Only after you do this will options show up on the "Add Collections" area
 
 #### Menu in Collection Add/Edit
 ![](images/settings.png)
+
+
+## Pusher or Reverb
+
+By default Reverrb will work. Just double check your settings and that you are running the Reverb Listener. But Pusher is an option as well and for now and it has been more solid for me.
+All you need to do is setup your .env file to have the needed Puhser info.
+
+```env
+BROADCAST_CONNECTION=pusher //this is key
+
+PUSHER_APP_ID="123456"
+PUSHER_APP_KEY="123456"
+PUSHER_APP_SECRET="123456"
+PUSHER_HOST=
+PUSHER_PORT=443
+PUSHER_SCHEME="https"
+PUSHER_APP_CLUSTER="us2"
+
+VITE_APP_NAME="${APP_NAME}"
+VITE_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
+VITE_PUSHER_HOST="${PUSHER_HOST}"
+VITE_PUSHER_PORT="${PUSHER_PORT}"
+VITE_PUSHER_SCHEME="${PUSHER_SCHEME}"
+VITE_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
+```
+
+
+Then if you have run Reverb make sure to 
+
+```bash
+php artisan optimize:clear
+```
+
+And of course `npm run dev` restart that or build rebuild.
