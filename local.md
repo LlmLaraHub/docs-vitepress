@@ -177,6 +177,7 @@ All you need to do is setup your .env file to have the needed Puhser info.
 
 ```env
 BROADCAST_CONNECTION=pusher //this is key
+VITE_BROADCAST_CONNECTION="pusher" //just easier to hard code 
 
 PUSHER_APP_ID="123456"
 PUSHER_APP_KEY="123456"
@@ -186,7 +187,6 @@ PUSHER_PORT=443
 PUSHER_SCHEME="https"
 PUSHER_APP_CLUSTER="us2"
 
-VITE_BROADCAST_CONNECTION="${BROADCAST_CONNECTION}"
 VITE_APP_NAME="${APP_NAME}"
 VITE_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
 VITE_PUSHER_HOST="${PUSHER_HOST}"
