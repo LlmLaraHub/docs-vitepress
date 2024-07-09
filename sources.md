@@ -53,3 +53,24 @@ Point it to a feed and get your content into the your Collection!
 
 See the vide [here](https://youtu.be/0VBqYnLcZ3g)
 
+## Google Sheet
+
+Click on the Google Sheet Source
+
+![](images/google_sheets_source.png)
+
+Then add the id of the sheet, you can see this in the url of the Google Sheet
+
+![](images/google_sheet_id.png)
+
+Then grab the name of the sheet 
+
+![](images/google_sheet_name.png)
+
+Finally make the sheet viewable (sorry right now auth is not supported coming in August 2024)
+
+![](images/google_visibility.png)
+
+Then click Test and see the data coming in.
+
+Lastly save and run!

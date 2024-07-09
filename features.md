@@ -7,7 +7,10 @@ The biggest goal of LaraLlama is to empower non developer, normal day to day use
 
 # Features
 
-Below is a list of features to consider as you start using LaraLlama.io
+Below is a list of features to consider as you start using LaraLlama.io 
+
+But there are so many day to day tasks right now that you might discover can be used here. One article talks about this 
+[LLM Integration Levels and your Business, it does not have to be all or nothing!](https://medium.com/@alnutile/llm-integration-levels-and-your-business-it-does-not-have-to-be-all-or-nothing-98fd841b3c0b) and how to test out these use cases for your day to day work.
 
 
 ## Collection
@@ -70,3 +73,7 @@ For example "Developer Audience" vs "Business Audience"
 See more [here](https://larallama.io/posts/new-feature-audience)
 
 
+## ReportBuilding
+
+Create a Collection of Customer Feedback, or Marketing Leads and start building reports on that data to get you started.
+Choose the Audience to help fine tune the focus of the report.

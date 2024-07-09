@@ -177,7 +177,7 @@ All you need to do is setup your .env file to have the needed Puhser info.
 
 ```env
 BROADCAST_CONNECTION=pusher //this is key
-VITE_BROADCAST_CONNECTION="pusher" //just easier to hard code 
+VITE_BROADCAST_CONNECTION="pusher" //just easier to hard code reverb or pusher
 
 PUSHER_APP_ID="123456"
 PUSHER_APP_KEY="123456"

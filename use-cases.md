@@ -63,12 +63,20 @@ get a daily summary of the emails sent to you! [here](https://www.youtube.com/wa
 You can see this video here on how to setup a Email Box Source, and setup an output of a Daily Report.
 
 
-
 Email Reply
 -------------
 Get emails (Support, Marketing) and then uses your collection
 as an example of replies or "Your Company Voice"
 And then send a reply to the person
+
+
+Google Sheet Sync
+-------------
+Add a Google sheet and start pulling in data hourly.
+New documents will be added and existing ones updated if there are any changes.
+
+![](images/google_sheets.png)
+
 
 
 Web Hooks and Automation

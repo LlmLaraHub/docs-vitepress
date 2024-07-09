@@ -24,6 +24,7 @@ export default defineConfig({
           { text: 'First Collection', link: '/first-collection' },
           { text: 'Digging In', link: '/digging-in' },
           { text: 'Use Cases', link: '/use-cases' },
+          { text: 'Sources', link: '/sources' },
           { text: 'Server', link: '/server' },
           { text: 'Developing', link: '/developing' },
           { text: 'Adding Custom Tools - Functions', link: '/tools' },
