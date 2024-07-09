@@ -63,6 +63,9 @@ Then content is the results so the next function/class/tool has that info.
 
 You can then register your tool [https://github.com/LlmLaraHub/larallama/blob/main/Modules/LlmDriver/app/LlmDriverClient.php#L58](https://github.com/LlmLaraHub/larallama/blob/main/Modules/LlmDriver/app/LlmDriverClient.php#L58)
 
+And:
+[https://github.com/LlmLaraHub/larallama/blob/main/Modules/LlmDriver/app/LlmServiceProvider.php#L67](https://github.com/LlmLaraHub/larallama/blob/main/Modules/LlmDriver/app/LlmServiceProvider.php#L67) not sure why both 🤔
+
 From here on the system should see it and allow the LLMs to use it. Here is a good example
 
 [https://github.com/LlmLaraHub/larallama/blob/main/Modules/LlmDriver/app/OpenAiClient.php#L173C10-L173C18](https://github.com/LlmLaraHub/larallama/blob/main/Modules/LlmDriver/app/OpenAiClient.php#L173C10-L173C18)
