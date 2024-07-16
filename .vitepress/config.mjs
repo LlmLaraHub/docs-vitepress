@@ -30,6 +30,7 @@ export default defineConfig({
           { text: 'Adding Custom Tools - Functions', link: '/tools' },
           { text: 'Links', link: '/links' },
           { text: 'APIs', link: '/api' },
+          { text: 'Training', link: '/training' },
           { text: 'Code APIs', link: '/code-api' }
         ]
       }
