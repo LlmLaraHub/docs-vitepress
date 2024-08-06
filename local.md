@@ -24,10 +24,8 @@ If you follow their docs you will be setup in minutes.
 
 ## PostGres
 
-I use the one here https://postgresapp.com/ even though I have Herd Pro.
-I could not get the extension to install but maybe now it would work.
-
-I know DBEngin is great too https://dbngin.com/ but the extension did not install at the time.
+**UPDATE**
+DBEngin is great too https://dbngin.com/ and works easily if you do not have HERD Prod
 
 ### Installation Steps
 
