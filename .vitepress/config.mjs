@@ -28,6 +28,7 @@ export default defineConfig({
           { text: 'Server', link: '/server' },
           { text: 'Developing', link: '/developing' },
           { text: 'Adding Custom Tools - Functions', link: '/tools' },
+          { text: 'Plugins', link: '/plugins' },
           { text: 'Links', link: '/links' },
           { text: 'APIs', link: '/api' },
           { text: 'Training', link: '/training' },
