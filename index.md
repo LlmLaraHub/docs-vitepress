@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "LaraLamma"
   text: "The Laravel R.A.G System"
-  tagline: Open-Source CRS (Content Retreival System)
+  tagline: Open-Source CRS (Content Retrieval System)
   actions:
     - theme: brand
       text: 🌤️  Overview
