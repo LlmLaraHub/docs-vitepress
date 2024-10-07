@@ -25,10 +25,25 @@ Then
 cp .env.example .env
 ```
 
+Now make sure to have database setup like this
+```bash
+DB_CONNECTION=pgsql
+DB_HOST=pgsql
+DB_PORT=5432
+DB_DATABASE=laralamma
+DB_USERNAME=postgres
+DB_PASSWORD=secret
+```
+
 And run the normal install steps:
 
 ```bash
 composer install
+```
+
+
+```bash
+php artisan key:generate
 ```
 
 ## Run Sail
