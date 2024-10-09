@@ -35,6 +35,11 @@ DB_USERNAME=postgres
 DB_PASSWORD=secret
 ```
 
+Also set REDIS_HOST as docker container name
+```bash
+REDIS_HOST=redis
+```
+
 And run the normal install steps:
 
 ```bash
@@ -101,6 +106,7 @@ Next, we need to start the Reverb service. This is a long-running process that l
 Finally, we need to compile the assets. This will watch for changes and recompile the assets when they change.
 
 ```bash
+   ./vendor/bin/sail npm install
    ./vendor/bin/sail npm run dev
 ```
 
@@ -109,6 +115,17 @@ Finally, we need to compile the assets. This will watch for changes and recompil
 ## Accessing the Application
 
 Once you have the containers running you can access the application by visiting http://localhost in your browser.
+Try to login with the credentials give below
+
+Email as : 
+```bash
+test@test.com
+```
+
+Password as :
+```bash
+password
+```
 
 ## Settings
 
