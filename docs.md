@@ -44,7 +44,7 @@ This is how you get data into the system. There are many ways to do this.
   * WebPage Source - here you can enter a list of URLs for the system to get the data from
 
 
-### Trasnformers 
+### Transformers 
 
 The system will already vectorize (make sure data easier for the Language Models to search) and tag but you can add more Prompt based trasnformers to alter your data. A great example can be seen here [https://youtu.be/KM7AyRHx0jQ?si=vnYG0PE8I8OCVEQa](https://youtu.be/KM7AyRHx0jQ?si=vnYG0PE8I8OCVEQa) as the user can write a "Prompt" to take complex JSON data from GitHub and turn it into a simple summary.
 
